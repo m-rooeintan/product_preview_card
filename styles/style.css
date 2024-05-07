@@ -75,7 +75,7 @@ a {
  height: 100%;
  width: 100%;
  flex-basis: 50%;
- background-image: url(../images/image-product-desktop.jpg);
+ background-image: url(./images/image-product-desktop.jpg);
  background-position: center;
  background-size: cover;
 }
@@ -198,7 +198,7 @@ color: var(--dark-cyan);
         height: 69vh;
     }
     .card__banner{
-        background-image: url(../images/image-product-mobile.jpg);
+        background-image: url(./images/image-product-mobile.jpg);
         flex-basis: 40%;
     }
     .product__details{
