@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Montserrat Medium";
-    src: url(./fonts/Montserrat-Medium.ttf) format('truetype');
+    src: url(../fonts/Montserrat-Medium.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Montserrat Bold";
-    src: url(./fonts/Montserrat-Bold.ttf) format('truetype');
+    src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Fraunces Bold";
-    src: url(./fonts/Fraunces_72pt-Bold.ttf) format('truetype');
+    src: url(../fonts/Fraunces_72pt-Bold.ttf) format('truetype');
 }
 
 :root {
