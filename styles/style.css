@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Montserrat Medium";
+    src: url(/fonts/Montserrat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(/fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Fraunces Bold";
+    src: url(/fonts/Fraunces_72pt-Bold.ttf) format('truetype');
+}
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --dark-blue: hsl(212, 21%, 14%);
+    --grayish-blue: hsl(228, 12%, 48%);
+    --primary-font: "Montserrat Medium", "Helvetica Neue", sans-serif;
+    --primary-font-bold: "Montserrat Bold", "Helvetica Neue", sans-serif;
+    --secondary-font: "Fraunces Bold", "Helvetica Neue", "Helvetica";
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+
